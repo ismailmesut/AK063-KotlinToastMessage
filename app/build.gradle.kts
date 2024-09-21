@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlintoastmessage"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlintoastmessage"
         minSdk = 24
